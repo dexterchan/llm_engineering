@@ -1,4 +1,4 @@
-name: llms
+name: llms3
 channels:
   - conda-forge
   - defaults
@@ -48,3 +48,5 @@ dependencies:
     - feedparser
     - twilio
     - pydub
+    - mlx-lm
+    - huggingface_hub
